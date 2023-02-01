@@ -7,7 +7,7 @@ import { SubHeading } from '../../components';
 const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
   <div className='app__laurels_awards-card'>
     <img src={imgUrl} alt='award' />
-    <div className='app__laurels_award-card_content'>
+    <div className='app__laurels_awards-card_content'>
       <p className='p__cormorant' style={{ color: '#DCCA87' }}>{title}</p>
       <p className='p__cormorant'>{subtitle}</p>
     </div>
